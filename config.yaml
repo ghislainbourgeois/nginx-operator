@@ -1,0 +1,5 @@
+options:
+  fqdn:
+    type: string
+    default:
+    description: FQDN for this server

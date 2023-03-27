@@ -1,2 +1,4 @@
 ops
 lightkube
+jsonschema
+cryptography

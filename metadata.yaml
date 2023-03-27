@@ -41,3 +41,11 @@ resources:
     # so the integration testing suite knows which image to deploy during testing. This field
     # is also used by the 'canonical/charming-actions' Github action for automated releasing.
     upstream-source: ghcr.io/canonical/nginx:1.23.3
+
+peers:
+  replicas:
+    interface: nginx-replica
+
+requires:
+  certificates:
+    interface: tls-certificates
